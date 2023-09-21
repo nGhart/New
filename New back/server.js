@@ -179,6 +179,9 @@ app.delete(
   requireAuth,
   vaccinationController.deleteVaccination
 );
+app.get("/",(req,res)=>{
+  res.json("hello")
+})
 
 app.use((req, res, next) => {
   next(createError(404));
