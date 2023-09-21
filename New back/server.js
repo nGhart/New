@@ -38,7 +38,7 @@ app.use(cookieParser());
 //deploy
 app.use(cors({
   origin: ["https://newfrontside.vercel.app"],
-  methods: ["POST", "GET", "DELETE", "PUT"],
+  methods: ["POST", "GET"],
   credentials: true
 }));
 
