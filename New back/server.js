@@ -38,7 +38,7 @@ app.use(cookieParser());
 //deploy
 app.use(cors(
   {
-    origin:["https://newrecords.vercel.app"],
+    origin:[""],
     methods:["POST", "GET","DELETE","PUT"],
     credentials:true
   }
