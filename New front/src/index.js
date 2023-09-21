@@ -10,7 +10,7 @@ import { PersistGate } from 'redux-persist/integration/react';
 
 //axios.defaults.baseURL = 'http://localhost:1994';
 //deploy
-axios.defaults.baseURL = "newrecords.vercel.app";
+axios.defaults.baseURL = "https://newrecords.vercel.app";
 axios.defaults.withCredentials = true;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
