@@ -36,13 +36,12 @@ app.use(cookieParser());
 // );
 
 //deploy
-app.use(cors(
-  {
-    origin:["https://newfrontside.vercel.app"],
-    methods:["POST", "GET","DELETE","PUT"],
-    credentials:true
-  }
-))
+app.use(cors({
+  origin: ["https://newfrontside.vercel.app"],
+  methods: ["POST", "GET", "DELETE", "PUT"],
+  credentials: true
+}));
+
 //DB connection
 connectToDb();
 
