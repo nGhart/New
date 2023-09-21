@@ -33,7 +33,13 @@ app.use(
     credentials: true,
   })
 );
-
+// app.use(cors(
+//   {
+//     origin:["https:deploy .vercel.app"],
+//     methods:["POST", "GET","DELETE","PUT"],
+//     credentials:true
+//   }
+// ))
 //DB connection
 connectToDb();
 
